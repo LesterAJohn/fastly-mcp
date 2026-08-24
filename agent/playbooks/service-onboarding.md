@@ -1,6 +1,6 @@
 # Service Onboarding Playbook
 
-Use this checklist when adapting the skeleton for a new service.
+Use this checklist when adding Fastly API coverage or a dedicated Fastly MCP tool.
 
 ## 1. Service Contract
 

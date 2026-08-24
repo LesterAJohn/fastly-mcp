@@ -1,10 +1,10 @@
 ---
 mode: agent
 tools: ["codebase", "editFiles", "search", "testFailure"]
-description: "Adapt this skeleton into an MCP for a specific service with env config, service adapter, tools, tests, and docs updates."
+description: "Extend this Fastly MCP with API coverage, tenant-scoped tokens, tests, and documentation updates."
 ---
 
-Use the Skeleton Services MCP Configurator agent to implement a service integration in this repository.
+Use the Fastly Services MCP Configurator agent to implement or extend Fastly API operations in this repository.
 
 Documentation links to treat as source of truth:
 

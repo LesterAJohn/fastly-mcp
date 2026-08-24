@@ -4,9 +4,9 @@ This directory stores playbooks used by the workspace custom agent for maintaini
 
 ## Contents
 
-- `playbooks/service-onboarding.md`: Step-by-step checklist for adding a new service integration to the MCP skeleton.
+- `playbooks/service-onboarding.md`: Step-by-step checklist for extending Fastly API coverage.
 - `templates/service-spec.md`: Structured input template for describing a new service integration request.
-- `.github/prompts/adapt-skeleton-service.prompt.md`: Agent-mode prompt for running structured service adaptation tasks from chat.
+- `.github/prompts/adapt-skeleton-service.prompt.md`: Agent-mode prompt for running structured Fastly MCP changes from chat.
 
 ## How It Is Used
 
