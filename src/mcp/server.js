@@ -267,7 +267,7 @@ function normalizePath(path) {
   return raw.startsWith("/") ? raw : `/${raw}`;
 }
 
-export function createMcpServer({ name, version, serviceClient, tokenResolver, tokenStore }) {
+export function createMcpServer({ name, version, serviceClient, configStore, tokenResolver, tokenStore }) {
   const server = new McpServer({
     name,
     version
@@ -358,6 +358,30 @@ export function createMcpServer({ name, version, serviceClient, tokenResolver, t
       throw unauthorized;
     }
   }
+
+  server.tool(
+    "fastly_get_config",
+    "Read-only: retrieve one tenant/user or tenant/account configuration key from Postgres. Never stores secrets.",
+    { tenantId: z.string().min(1), userId: z.string().min(1).optional(), accountId: z.string().min(1).optional(), key: z.string().min(1) },
+    withErrorHandling(async ({ tenantId, userId, accountId, key }) => {
+      if (!configStore) throw Object.assign(new Error("Postgres config store is not configured"), { status: 503 });
+      if (Boolean(userId) === Boolean(accountId)) throw Object.assign(new Error("Provide exactly one of userId or accountId"), { status: 400 });
+      return { ok: true, status: 200, data: await configStore.getConfig(key, { tenantId, userId, accountId }) };
+    })
+  );
+
+  server.tool(
+    "fastly_set_config",
+    "Mutating: persist non-secret tenant/user or tenant/account configuration in Postgres. Reject tokens and secrets; requires the admin key when configured.",
+    { tenantId: z.string().min(1), userId: z.string().min(1).optional(), accountId: z.string().min(1).optional(), key: z.string().min(1), value: z.unknown(), authorizationKey: z.string().min(1).optional() },
+    withErrorHandling(async ({ tenantId, userId, accountId, key, value, authorizationKey }) => {
+      assertAuthorized(authorizationKey);
+      if (!configStore) throw Object.assign(new Error("Postgres config store is not configured"), { status: 503 });
+      if (Boolean(userId) === Boolean(accountId)) throw Object.assign(new Error("Provide exactly one of userId or accountId"), { status: 400 });
+      if (/token|secret|password|api[_-]?key|private[_-]?key/i.test(key)) throw Object.assign(new Error("Secret material must be persisted in Vault, not Postgres"), { status: 400 });
+      return { ok: true, status: 200, data: await configStore.setConfig(key, value, { tenantId, userId, accountId }) };
+    })
+  );
 
   server.tool(
     "service_query_suggestion",
