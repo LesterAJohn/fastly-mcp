@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "fastly-mcp": {
+      "type": "stdio",
+      "command": "npm",
+      "args": ["run", "start:stdio"]
+    }
+  }
+}

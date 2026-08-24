@@ -1,0 +1,28 @@
+# Fastly MCP Agent Structure
+
+This directory stores playbooks used by the workspace custom agent for maintaining this Fastly API MCP server.
+
+## Contents
+
+- `playbooks/service-onboarding.md`: Step-by-step checklist for adding a new service integration to the MCP skeleton.
+- `templates/service-spec.md`: Structured input template for describing a new service integration request.
+- `.github/prompts/adapt-skeleton-service.prompt.md`: Agent-mode prompt for running structured service adaptation tasks from chat.
+
+## How It Is Used
+
+The VS Code custom agent at `.github/agents/skeleton-services-mcp.agent.md` uses this material as implementation guidance when asked to:
+
+- Add or extend Fastly API operations
+- Expose service operations as MCP tools
+- Keep security defaults (redaction and authorization)
+- Preserve dual transport behavior (stdio and HTTP)
+- Preserve HTTP auth modes (token, oauth2, both)
+- Keep secrets in Vault and config in Postgres
+- Maintain multi-tenant defaults (Vault token fallback tenant/user or tenant/account and Postgres config tenant/principal defaults)
+- Preserve Vault Raft persistence patterns in both local and production compose stacks
+- Preserve bearer-token seeding for user access provisioning, exposed both as a CLI helper and an MCP tool
+- Preserve OAuth access-token seeding for user access provisioning, exposed both as a CLI helper and an MCP tool
+- Preserve startup ordering that runs the managed unseal key init helper before Vault starts
+- Preserve support for external Vault and Postgres services via app-only compose startup
+- Treat `APP_NAME` as the single naming source for Vault token paths and Postgres config table names, with tenant/principal segments nested underneath
+- Add tests and documentation updates

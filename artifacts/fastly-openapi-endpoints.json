@@ -1,0 +1,1224 @@
+{
+  "source": "https://www.fastly.com/documentation/reference/api/index",
+  "endpointCount": 203,
+  "endpoints": [
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/account/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/account/billing-address",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/account/billing-usage-metrics",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/account/contact",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/account/customer",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/account/events",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/account/invitations",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/account/invoices",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/account/roles",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/account/service-authorization",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/account/star",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/account/user",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/acls/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/acls/acl",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/acls/acl-entry",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/acls/acls",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/api-security/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/api-security/operations",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/auth-tokens/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/auth-tokens/automation",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/auth-tokens/user",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/client-side-protection",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/client-side-protection/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ddos-protection",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ddos-protection/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/dictionaries/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/dictionaries/dictionary",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/dictionaries/dictionary-info",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/dictionaries/dictionary-item",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/dns/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/dns/tsig-keys",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/dns/zones",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/domain-management/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/domain-management/domain-research",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/domain-management/domains",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/domain-management/routing-configs",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ip-configuration/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ip-configuration/spp/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ip-configuration/spp/dns-configuration",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ip-configuration/spp/tls-configuration",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/load-balancing/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/load-balancing/directors/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/load-balancing/directors/backend",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/load-balancing/directors/director",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/load-balancing/pools/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/load-balancing/pools/pool",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/load-balancing/pools/server",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/azureblob",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/bigquery",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/cloudfiles",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/datadog",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/digitalocean",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/elasticsearch",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/errors",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/ftp",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/gcs",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/google-pubsub",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/grafanacloudlogs",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/heroku",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/honeycomb",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/https",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/kafka",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/kinesis",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/loggly",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/logshuttle",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/new-relic",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/newrelicotlp",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/openstack",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/papertrail",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/s3",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/scalyr",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/sftp",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/splunk",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/sumologic",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/logging/syslog",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/metrics-stats/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/metrics-stats/domain-inspector/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/metrics-stats/domain-inspector/historical",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/metrics-stats/domain-inspector/real-time",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/metrics-stats/historical-stats",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/metrics-stats/origin-inspector/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/metrics-stats/origin-inspector/historical",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/metrics-stats/origin-inspector/real-time",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/metrics-stats/realtime",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/metrics-stats/stats",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/agent-keys",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/agents",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/custom-dashboards",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/events",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/header-links",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/lists",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/rate-limited-sources",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/redactions",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/reports",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/requests",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/rules",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/signals",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/simulate",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/thresholds",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/timeseries",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/virtual-patches",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/workspace-alerts",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/ngwaf/workspaces",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/alerts/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/alerts/definition",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/alerts/history",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/custom-dashboards",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/insights",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/log-aggregations",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/log-explorer",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/notifications",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/notifications/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/notifications/event-mappings",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/timeseries",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/timeseries/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/timeseries/logs",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/observability/timeseries/sustainability",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/ai_accelerator",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/api_discovery",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/bot_management",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/brotli_compression",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/ddos_protection",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/domain_inspector",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/domain_research",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/fanout",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/image_optimizer",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/kv_store",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/log_explorer_insights",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/ngwaf",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/object_storage",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/origin_inspector",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/products/websockets",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/publishing",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/publishing/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/purging",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/purging/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/backend",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/domain",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/healthcheck",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/image-optimizer-default-settings",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/package",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/resource",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/resources/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/resources/config-store",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/resources/config-store-item",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/resources/kv-store",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/resources/kv-store-item",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/resources/object-storage-access-keys",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/resources/secret-store",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/resources/secret-store-secret",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/service",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/services/version",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/tls/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/tls/configuration",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/tls/custom-certs/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/tls/custom-certs/activations",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/tls/custom-certs/certificates",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/tls/custom-certs/csrs",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/tls/custom-certs/domains",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/tls/custom-certs/private-keys",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/tls/mutual-tls/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/tls/mutual-tls/activations",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/tls/mutual-tls/authentication",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/tls/platform",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/tls/subs",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/utils/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/utils/content",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/utils/diff",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/utils/docs",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/utils/pops",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/utils/public-ip-list",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/utils/sudo",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/apex-redirect",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/cache-settings",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/condition",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/diff",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/gzip",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/header",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/http3",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/rate-limiter",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/request-settings",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/response-object",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/settings",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/snippet",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "/documentation/reference/api/vcl-services/vcl",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "https://www.fastly.com/documentation/reference/api/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "https://www.fastly.com/documentation/reference/api/auth-tokens/user/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "https://www.fastly.com/documentation/reference/api/index/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "https://www.fastly.com/documentation/reference/api/metrics-stats/historical-stats/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "https://www.fastly.com/documentation/reference/api/tls/custom-certs/activations/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "https://www.fastly.com/documentation/reference/api/tls/custom-certs/certificates/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "https://www.fastly.com/documentation/reference/api/tls/custom-certs/domains/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "https://www.fastly.com/documentation/reference/api/tls/subs/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "https://www.fastly.com/documentation/reference/api/utils/diff/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "https://www.fastly.com/documentation/reference/api/vcl-services/condition",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    },
+    {
+      "method": "DOCUMENTED",
+      "path": "https://www.fastly.com/documentation/reference/api/vcl-services/condition/",
+      "operationId": null,
+      "summary": "Fastly API reference endpoint"
+    }
+  ]
+}
